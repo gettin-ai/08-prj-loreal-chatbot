@@ -3,6 +3,7 @@
   --loreal-charcoal: #1a1a1a;
   --loreal-white: #ffffff;
   --loreal-red: #d7261e;
+  --loreal-gold: #c8a24a;
   --loreal-cream: #f7f3ef;
   --loreal-stone: #e8e0d8;
   --loreal-muted: #6f6964;
@@ -77,7 +78,7 @@ body {
   letter-spacing: 0.14em;
   font-size: 0.78rem;
   font-weight: 600;
-  color: #d7cfc8;
+  color: var(--loreal-gold);
   margin-bottom: 10px;
 }
 
@@ -107,7 +108,7 @@ body {
 .latest-question-card {
   background: var(--loreal-black);
   color: var(--loreal-white);
-  border-left: 5px solid var(--loreal-red);
+  border-left: 5px solid var(--loreal-gold);
   border-radius: 20px;
   padding: 16px 18px;
   margin-bottom: 18px;
@@ -315,15 +316,15 @@ body {
 }
 
 .site-footer a {
-  color: var(--loreal-white);
+  color: var(--loreal-black);
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  border-bottom: 1px solid rgba(11, 11, 11, 0.35);
   padding-bottom: 2px;
 }
 
 .site-footer a:hover {
-  color: #ffd7d3;
-  border-bottom-color: #ffd7d3;
+  color: var(--loreal-gold);
+  border-bottom-color: var(--loreal-gold);
 }
 
 /* -------- Accessibility -------- */
